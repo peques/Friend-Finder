@@ -1,0 +1,77 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Georgia;}
+{\colortbl;\red255\green255\blue255;\red19\green19\blue19;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c9412\c9412\c9412;\cssrgb\c100000\c100000\c100000;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\})}{\leveltext\leveltemplateid1\'02\'00);}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww14160\viewh16500\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl360\slmult1\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 \ul \ulc0 Survey Questions\ulnone  (will be on a scale of 1-5; 5 being strongly agree)\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\sl360\slmult1\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs36 \cf0 {\listtext	1)	}Bears. Beets. Battlestar Galactica.\
+{\listtext	2)	}We need to remember what\'92s important in life: friends, waffles, work. Or waffles, friends, work. Doesn\'92t matter, but work is third.\
+{\listtext	3)	}Dunder Mifflin is the greatest company in the whole wide world.\
+{\listtext	4)	}I like fishing, it relaxes me. It\'92s like yoga, except I still get to kill something.\
+{\listtext	5)	}Agent Michael Scarn is the greatest secret agent who\'92s ever lived.\
+{\listtext	6)	}Mouse Rat is the greatest rock band ever.\
+{\listtext	7)	}Rabies is more dangerous than a fractured pelvis.\
+{\listtext	8)	}Is that what she said?\
+{\listtext	9)	}Office pranks are childish, and are a waste of company time.\
+{\listtext	10)	}Lil\'92 Sebastian is a national treasure
+\fs48 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl360\slmult1\pardirnatural\partightenfactor0
+\cf0 \
+\ul Home.html\ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl360\slmult1\pardirnatural\partightenfactor0
+
+\fs36 \cf0 	- will display home page\
+	- \'93Take Survey\'94 Button that takes you to 
+\fs48 \ul Survey.html
+\fs36 \ulnone  page
+\fs48 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl360\slmult1\pardirnatural\partightenfactor0
+\cf0 \ul Survey.html
+\fs36 \ulnone \
+	- will display the questions above for user to answer\
+	
+\fs48 \
+\ul Server.js\ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl360\slmult1\pardirnatural\partightenfactor0
+
+\fs36 \cf0 	- starts the server/application\
+	- has the routes to the web pages home.html and survey.html\
+	- will send POST request to update 
+\fs48 \ul Friends.js\ulnone  
+\fs36 array\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl360\slmult1\pardirnatural\partightenfactor0
+
+\fs48 \cf0 \ul Friends.js\ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl360\slmult1\pardirnatural\partightenfactor0
+
+\fs36 \cf0 	- has list of matches set as a list of objects\
+	- logic to calculate compatibility, display match, process survey data\
+\
+\
+\
+Comparison Function\
+	- userObject iterates through friendsList array\
+	- once it hits each [i] next loop starts\
+	- userObject.scores compares to friendsList.scores\
+	- difference calculated, userObject moves to next item in friendsList array\
+	- result gets stored in array?\
+\
+	
+\fs48 \
+\pard\pardeftab720\sl360\slmult1\partightenfactor0
+
+\f1\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl360\slmult1\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+}
